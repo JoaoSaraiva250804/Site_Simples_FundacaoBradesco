@@ -11,7 +11,6 @@
   --btnFontColor: var(--white);
 }
 
-/* Seletores de Tema que alteram o valor das variáveis */
 .light-theme {
   --bg: var(--green);
   --fontColor: var(--black);
@@ -23,28 +22,24 @@
   --bg: var(--black);
   --fontColor: var(--white);
   
-  /* AJUSTE AQUI: No tema escuro, o botão vira branco com texto preto */
   --btnBg: var(--white);       
   --btnFontColor: var(--black);
 }
 
-/* Seletor Universal para aplicar a cor da fonte em tudo */
-* {
+ {
   color: var(--fontColor);
 }
 
-/* Configurações globais do Body */
 body {
   font-family: monospace;
   background: var(--bg);
 }
 
-/* Estilos das Listas */
 ul li {
   list-style: circle;
 }
 
-ul .List { /* Deixei com 'L' maiúsculo para bater com o seu HTML */
+ul .List { 
   list-style: square;
 }
 
@@ -58,12 +53,10 @@ ul .List { /* Deixei com 'L' maiúsculo para bater com o seu HTML */
   border: none;
   cursor: pointer;
   
-  /* CORREÇÃO: Removido o espaço do var() */
   color: var(--btnFontColor);
   background-color: var(--btnBg);
 }
 
-/* Bônus: focar no botão sem a borda estranha */
 .btn:focus {
   outline-style: none;
 }
