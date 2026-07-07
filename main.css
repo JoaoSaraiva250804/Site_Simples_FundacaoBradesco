@@ -1,10 +1,9 @@
 :root {
-  /* Constantes de cores */
+
   --green: #00FF00;
   --white: #FFFFFF;
   --black: #000000;
-  
-  /* Variáveis padrão (Tema Claro) */
+ 
   --bg: var(--green);
   --fontColor: var(--black);
   --btnBg: var(--black);
